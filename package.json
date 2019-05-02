@@ -1,7 +1,7 @@
 {
-  "name": "@playkit-js/playkit-js-ima",
+  "name": "@pakhshkit-js/pakhshkit-js-ima",
   "version": "0.10.9",
-  "main": "dist/playkit-ima.js",
+  "main": "dist/pakhshkit-ima.js",
   "scripts": {
     "clean": "rm -rf ./dist",
     "prebuild": "npm run clean",
@@ -25,7 +25,7 @@
     "access": "public"
   },
   "dependencies": {
-    "javascript-state-machine": "https://github.com/kaltura/javascript-state-machine.git#v3.0.1"
+    "javascript-state-machine": "https://github.com/vidiun/javascript-state-machine.git#v3.0.1"
   },
   "devDependencies": {
     "@pakhshkit-js/pakhshkit-js": "^0.45.1-canary.4eaff16",
