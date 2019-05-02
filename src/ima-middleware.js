@@ -1,5 +1,5 @@
 // @flow
-import {BaseMiddleware} from '@playkit-js/playkit-js';
+import {BaseMiddleware} from '@pakhshkit-js/pakhshkit-js';
 import {Ima} from './ima';
 import {State} from './state';
 

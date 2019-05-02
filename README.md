@@ -1,25 +1,25 @@
-# PlayKit JS IMA - IMA Plugin for the [Kaltura Player JS]
+# PakhshKit JS IMA - IMA Plugin for the [Vidiun Player JS]
 
-[![Build Status](https://travis-ci.org/kaltura/playkit-js-ima.svg?branch=master)](https://travis-ci.org/kaltura/playkit-js-ima)
+[![Build Status](https://travis-ci.org/vidiun/pakhshkit-js-ima.svg?branch=master)](https://travis-ci.org/vidiun/pakhshkit-js-ima)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
-[![](https://img.shields.io/npm/v/@playkit-js/playkit-js-ima/latest.svg)](https://www.npmjs.com/package/@playkit-js/playkit-js-ima)
-[![](https://img.shields.io/npm/v/@playkit-js/playkit-js-ima/canary.svg)](https://www.npmjs.com/package/@playkit-js/playkit-js-ima/v/canary)
+[![](https://img.shields.io/npm/v/@pakhshkit-js/pakhshkit-js-ima/latest.svg)](https://www.npmjs.com/package/@pakhshkit-js/pakhshkit-js-ima)
+[![](https://img.shields.io/npm/v/@pakhshkit-js/pakhshkit-js-ima/canary.svg)](https://www.npmjs.com/package/@pakhshkit-js/pakhshkit-js-ima/v/canary)
 
-PlayKit JS IMA plugin integrates [IMA SDK for HTML5] with the [Kaltura Player JS].
+PakhshKit JS IMA plugin integrates [IMA SDK for HTML5] with the [Vidiun Player JS].
 
-PlayKit JS IMA is written in [ECMAScript6], statically analysed using [Flow] and transpiled in ECMAScript5 using [Babel].
+PakhshKit JS IMA is written in [ECMAScript6], statically analysed using [Flow] and transpiled in ECMAScript5 using [Babel].
 
 [ima sdk for html5]: https://developers.google.com/interactive-media-ads/docs/sdks/html5/
 [flow]: https://flow.org/
 [ecmascript6]: https://github.com/ericdouglas/ES6-Learning#articles--tutorials
 [babel]: https://babeljs.io
-[kaltura player js]: https://github.com/kaltura/kaltura-player-js
+[vidiun player js]: https://github.com/vidiun/vidiun-player-js
 
 ## Getting Started
 
 ### Prerequisites
 
-The plugin requires [Kaltura Player JS] to be loaded first.
+The plugin requires [Vidiun Player JS] to be loaded first.
 
 The plugin uses the [IMA SDK for HTML5] Javascript SDK, if the SDK is already loaded on the page the plugin will use it, and if it's not then it will load it.
 
@@ -30,8 +30,8 @@ First, clone and run [yarn] to install dependencies:
 [yarn]: https://yarnpkg.com/lang/en/
 
 ```
-git clone https://github.com/kaltura/playkit-js-ima.git
-cd playkit-js-ima
+git clone https://github.com/vidiun/pakhshkit-js-ima.git
+cd pakhshkit-js-ima
 yarn install
 ```
 
@@ -48,9 +48,9 @@ yarn run build
 Finally, add the bundle as a script tag in your page, and initialize the player
 
 ```html
-<script type="text/javascript" src="/PATH/TO/FILE/kaltura-{ovp/ott}-player.js"></script>                     <!--PlayKit player-->
+<script type="text/javascript" src="/PATH/TO/FILE/vidiun-{ovp/ott}-player.js"></script>                     <!--PakhshKit player-->
 <script type="text/javascript" src="//imasdk.googleapis.com/js/sdkloader/ima3.js"></script> <!--IMA SDK for HTML5-->
-<script type="text/javascript" src="/PATH/TO/FILE/playkit-ima.js"></script>                 <!--PlayKit IMA plugin-->
+<script type="text/javascript" src="/PATH/TO/FILE/pakhshkit-ima.js"></script>                 <!--PakhshKit IMA plugin-->
 <div id="player-placeholder" style="height:360px; width:640px">
 <script type="text/javascript">
 var config = {
@@ -66,7 +66,7 @@ var config = {
   }
   ...
 };
-var player = KalturaPlayer.setup(config);
+var player = VidiunPlayer.setup(config);
 player.play();
 </script>
 ```
@@ -112,7 +112,7 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/kaltura/playkit-js-ima/tags).
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/vidiun/pakhshkit-js-ima/tags).
 
 ## License
 

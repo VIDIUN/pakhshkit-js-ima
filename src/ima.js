@@ -3,7 +3,7 @@ import {ImaMiddleware} from './ima-middleware';
 import {ImaAdsController} from './ima-ads-controller';
 import {ImaStateMachine} from './ima-state-machine';
 import {State} from './state';
-import {BaseMiddleware, BasePlugin, EngineType, Error, getCapabilities, Utils, Env} from '@playkit-js/playkit-js';
+import {BaseMiddleware, BasePlugin, EngineType, Error, getCapabilities, Utils, Env} from '@pakhshkit-js/pakhshkit-js';
 import './assets/style.css';
 
 /**
@@ -27,14 +27,14 @@ const OVERLAY_AD_MARGIN: number = 8;
  * @const
  * @private
  */
-const ADS_CONTAINER_CLASS: string = 'playkit-ads-container';
+const ADS_CONTAINER_CLASS: string = 'pakhshkit-ads-container';
 /**
  * The ads cover class.
  * @type {string}
  * @const
  * @private
  */
-const ADS_COVER_CLASS: string = 'playkit-ads-cover';
+const ADS_COVER_CLASS: string = 'pakhshkit-ads-cover';
 
 /**
  * The ima plugin.

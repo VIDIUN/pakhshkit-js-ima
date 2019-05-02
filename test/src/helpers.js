@@ -1,4 +1,4 @@
-import loadPlayer from '@playkit-js/playkit-js';
+import loadPlayer from '@pakhshkit-js/pakhshkit-js';
 
 /**
  * @param {string} targetId _
