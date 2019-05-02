@@ -1,4 +1,4 @@
-.playkit-ads-cover {
+.pakhshkit-ads-cover {
   position: relative;
   cursor: pointer;
   width: 100%;
@@ -6,7 +6,7 @@
   background-color: rgba(0, 0, 0, 0);
 }
 
-.playkit-ads-container {
+.pakhshkit-ads-container {
   visibility: hidden;
   position: absolute;
 }

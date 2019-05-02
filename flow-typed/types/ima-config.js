@@ -15,7 +15,7 @@
  * @param {string} [adsResponse] - Specifies a VAST 2.0 document to be used as the ads response instead of making a request via an ad tag url (if `adTagUrl` is not set).
  * @param {boolean} [debug=false] - If set to true, loads IMA SDK in debug mode.
  * @param {number} [disableMediaPreload=false] - Whether to disable media pre loading while ad is playing. If set to `true`, the player will start loading the content media just after the ad break will end (incase of preroll ad). This will also overrides `config.adsRenderingSettings.restoreCustomPlaybackStateOnAdBreakComplete` no matters its value and sets it to `false`.
- * @param {google.ima.ImaSdkSettings.VpaidMode} [vpaidMode='ENABLED'] - Sets VPAID playback mode See usage also in {@link https://github.com/kaltura/playkit-js-ima/blob/master/docs/vpaid.md#handling-vpaid-modes|Handling VPAID Modes}.
+ * @param {google.ima.ImaSdkSettings.VpaidMode} [vpaidMode='ENABLED'] - Sets VPAID playback mode See usage also in {@link https://github.com/vidiun/pakhshkit-js-ima/blob/master/docs/vpaid.md#handling-vpaid-modes|Handling VPAID Modes}.
  * @param {google.ima.AdsRenderingSettings} [adsRenderingSettings={
   restoreCustomPlaybackStateOnAdBreakComplete: true,
   enablePreloading: false,
@@ -24,7 +24,7 @@
   bitrate: -1,
   autoAlign: true
 }] - Defines parameters that control the rendering of ads.
- * @param {boolean} [adsRenderingSettings.useStyledLinearAds=false] - See usage also in {@link https://github.com/kaltura/playkit-js-ima/blob/master/docs/vpaid.md#handling-vpaid-ads|Handling VPAID Ads}
+ * @param {boolean} [adsRenderingSettings.useStyledLinearAds=false] - See usage also in {@link https://github.com/vidiun/pakhshkit-js-ima/blob/master/docs/vpaid.md#handling-vpaid-ads|Handling VPAID Ads}
  * @param {CompanionsConfigObject} [companions] - Defines the companion ads.
  * @param {string} [locale] - Sets the publisher provided locale. The locale specifies the language in which to display UI elements and can be any two-letter {@link https://www.loc.gov/standards/iso639-2/php/English_list.php|ISO 639-1} code.
  * @example

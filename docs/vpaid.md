@@ -6,7 +6,7 @@ It's recommend that when playing VPAID ads, the player will not add any custom U
 **Configure on player setup**
 
 ```js
-const player = KalturaPlayer.setup({
+const player = VidiunPlayer.setup({
   plugins: {
     ima: {
       ...
@@ -56,7 +56,7 @@ If you require to alter the VpaidMode, simply change the value of the IMA player
 **Configure on player setup**
 
 ```js
-const player = KalturaPlayer.setup({
+const player = VidiunPlayer.setup({
   plugins: {
     ima: {
       ...

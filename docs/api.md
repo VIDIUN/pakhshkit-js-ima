@@ -230,9 +230,9 @@ Whether the ima plugin is valid.
 [34]: https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String
 [35]: https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Boolean
 [36]: #googleimaimasdksettingsvpaidmode
-[37]: https://github.com/kaltura/playkit-js-ima/blob/master/docs/vpaid.md#handling-vpaid-modes
+[37]: https://github.com/vidiun/pakhshkit-js-ima/blob/master/docs/vpaid.md#handling-vpaid-modes
 [38]: #googleimaadsrenderingsettings
-[39]: https://github.com/kaltura/playkit-js-ima/blob/master/docs/vpaid.md#handling-vpaid-ads
+[39]: https://github.com/vidiun/pakhshkit-js-ima/blob/master/docs/vpaid.md#handling-vpaid-ads
 [40]: #companionsconfigobject
 [41]: https://developers.google.com/interactive-media-ads/docs/sdks/html5/v3/apis#ima.ImaSdkSettings.VpaidMode
 [42]: #ima

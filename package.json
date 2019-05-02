@@ -1,7 +1,7 @@
 {
-  "name": "@playkit-js/playkit-js-ima",
+  "name": "@pakhshkit-js/pakhshkit-js-ima",
   "version": "0.10.7",
-  "main": "dist/playkit-ima.js",
+  "main": "dist/pakhshkit-ima.js",
   "scripts": {
     "clean": "rm -rf ./dist",
     "prebuild": "npm run clean",
@@ -28,7 +28,7 @@
     "javascript-state-machine": "^3.0.1"
   },
   "devDependencies": {
-    "@playkit-js/playkit-js": "^0.45.1-canary.4eaff16",
+    "@pakhshkit-js/pakhshkit-js": "^0.45.1-canary.4eaff16",
     "babel-cli": "^6.18.0",
     "babel-core": "^6.18.2",
     "babel-eslint": "^7.1.1",
@@ -77,19 +77,19 @@
     "webpack-dev-server": "latest"
   },
   "peerDependencies": {
-    "@playkit-js/playkit-js": "^0.45.1-canary.4eaff16"
+    "@pakhshkit-js/pakhshkit-js": "^0.45.1-canary.4eaff16"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/kaltura/playkit-js-ima"
+    "url": "https://github.com/vidiun/pakhshkit-js-ima"
   },
-  "keywords": ["ad", "vast", "vmap", "ima", "ads", "monetization", "kaltura", "player", "playkit-js", "playkit-js-ima", "html5 player"],
+  "keywords": ["ad", "vast", "vmap", "ima", "ads", "monetization", "vidiun", "player", "pakhshkit-js", "pakhshkit-js-ima", "html5 player"],
   "license": "AGPL-3.0",
   "bugs": {
-    "url": "https://github.com/kaltura/playkit-js-ima/issues"
+    "url": "https://github.com/vidiun/pakhshkit-js-ima/issues"
   },
-  "homepage": "https://github.com/kaltura/playkit-js-ima",
-  "kcc": {
-    "name": "playkit-ima"
+  "homepage": "https://github.com/vidiun/pakhshkit-js-ima",
+  "vcc": {
+    "name": "pakhshkit-ima"
   }
 }
